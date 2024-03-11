@@ -8,7 +8,7 @@ logFile=/opt/db_bak/mysql/bakdir_add.log
 BinFile=/var/lib/mysql/mysql-bin.index
 
 #生产新的mysql--bin.00000*文件
-mysqladmin -uroot -pjft@zjk2022.com flush-logs
+mysqladmin -uroot -pxiaopeng@126.com flush-logs
 #awk切片并统计行数
 Counter=`wc -l $BinFile |awk '{print $1}'`
 NextNum=0
