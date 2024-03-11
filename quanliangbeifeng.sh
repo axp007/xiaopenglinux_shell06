@@ -2,7 +2,7 @@
 # ##mysql用户
 user="root"
 # ##mysql密码
-userPWD="jft@zjk2022.com"
+userPWD="xiaopeng@126.com"
 # ##需要定时备份的数据库列表
 dbNames=(pemass mysql)
 # ##备份数据以日期创建文件夹存放,同时删除过期备份
